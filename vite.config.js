@@ -19,7 +19,7 @@ export default defineConfig(({mode}) => {
   };
 
   return {
-    base: 'https://jwhy89.github.io/pokemon-cards-css',
+    // base: 'jwhy89.github.io/pokemon-cards-css/',
     plugins: [svelte(), htmlPlugin()],
     server: {
       watch: {
